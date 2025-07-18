@@ -1,12 +1,12 @@
 from scipy.stats import chi2_contingency, fisher_exact
 
 input = [
-    {'match': [97, 105, 870, 975], 'unmatch': [324, 280, 2970, 3250], 'title': 'FXR2_down_bp>=0.5'},
-    {'match': [74, 74, 672, 746], 'unmatch': [324, 280, 2970, 3250], 'title': 'FXR2_down_bp>=0.9'},
-    {'match': [44, 43, 402, 445], 'unmatch': [324, 280, 2970, 3250], 'title': 'FXR2_down_bp>=1'},
-    {'match': [135, 119, 1137, 1256], 'unmatch': [286, 266, 2703, 2969], 'title': 'FXR2_up_bp>=0.5'},
-    {'match': [115, 106, 946, 1052], 'unmatch': [286, 266, 2703, 2969], 'title': 'FXR2_up_bp>=0.9'},
-    {'match': [80, 69, 601, 670], 'unmatch': [286, 266, 2703, 2969], 'title': 'FXR2_up_bp>=1'},
+    {'match': [7, 15, 70, 95], 'unmatch': [4, 28, 70, 50], 'title': xxx'},
+    {'match': [7, 7, 672, 76], 'unmatch': [4, 0, 20, 35], 'title': 'xxxx'},
+    {'match': [4, 4, 402, 45], 'unmatch': [32, 20, 70, 30], 'title': 'xxx'},
+    {'match': [35, 19, 37, 5], 'unmatch': 6, 266, 3,69], 'title': 'xxxx'},
+    {'match': [15, 16, 9, 12], 'unmatch': [2, 266, 23, 9], 'title': 'xxx'},
+    {'match': [0, 6, 1,670], 'unmatch': [86, 2, 23, 2], 'title': 'xxxx'},
 ]
 def chi_square(input):
     output = []
